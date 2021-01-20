@@ -1,86 +1,9 @@
 <circuit>
 <CurrentPage>0</CurrentPage>
 <page 0>
-<PageViewport>4.65205,-12.2243,39.7865,-48.8691</PageViewport>
-<gate>
-<ID>2</ID>
-<type>GA_LED</type>
-<position>12.5,-15.5</position>
-<input>
-<ID>N_in2</ID>3 </input>
-<gparam>LED_BOX -0.76,-0.76,0.76,0.76</gparam>
-<gparam>angle 0.0</gparam></gate>
-<gate>
-<ID>4</ID>
-<type>BE_JKFF_LOW</type>
-<position>14.5,-19.5</position>
-<input>
-<ID>J</ID>4 </input>
-<input>
-<ID>K</ID>4 </input>
-<output>
-<ID>Q</ID>3 </output>
-<input>
-<ID>clock</ID>4 </input>
-<gparam>angle 90</gparam>
-<lparam>SYNC_CLEAR false</lparam>
-<lparam>SYNC_SET false</lparam></gate>
-<gate>
-<ID>19</ID>
-<type>CC_PULSE</type>
-<position>13,-27</position>
-<output>
-<ID>OUT_0</ID>4 </output>
-<gparam>CLICK_BOX -111111,-11111,11111,111111.1</gparam>
-<gparam>PULSE_WIDTH 1</gparam>
-<gparam>angle 90</gparam></gate>
-<wire>
-<ID>3</ID>
-<shape>
-<vsegment>
-<ID>0</ID>
-<points>12.5,-16.5,12.5,-16.5</points>
-<connection>
-<GID>2</GID>
-<name>N_in2</name></connection>
-<connection>
-<GID>4</GID>
-<name>Q</name></connection></vsegment></shape></wire>
-<wire>
-<ID>4</ID>
-<shape>
-<vsegment>
-<ID>0</ID>
-<points>12.5,-23.5,12.5,-22.5</points>
-<connection>
-<GID>4</GID>
-<name>J</name></connection>
-<intersection>-23.5 2</intersection></vsegment>
-<vsegment>
-<ID>1</ID>
-<points>13,-25,13,-22.5</points>
-<connection>
-<GID>19</GID>
-<name>OUT_0</name></connection>
-<intersection>-23.5 2</intersection>
-<intersection>-22.5 3</intersection></vsegment>
-<hsegment>
-<ID>2</ID>
-<points>12.5,-23.5,13,-23.5</points>
-<intersection>12.5 0</intersection>
-<intersection>13 1</intersection></hsegment>
-<hsegment>
-<ID>3</ID>
-<points>13,-22.5,16.5,-22.5</points>
-<connection>
-<GID>4</GID>
-<name>K</name></connection>
-<connection>
-<GID>4</GID>
-<name>clock</name></connection>
-<intersection>13 1</intersection></hsegment></shape></wire></page 0>
+<PageViewport>-9.01138,1.99554,53.4499,-63.1508</PageViewport></page 0>
 <page 1>
-<PageViewport>-27.8507,108.429,148.382,-75.3789</PageViewport>
+<PageViewport>-37.7298,45.6002,61.4011,-57.792</PageViewport>
 <gate>
 <ID>1</ID>
 <type>BM_NORX2</type>
@@ -93,6 +16,12 @@
 <ID>OUT</ID>16 </output>
 <gparam>angle 0.0</gparam>
 <lparam>INPUT_BITS 2</lparam></gate>
+<gate>
+<ID>2</ID>
+<type>GA_LED</type>
+<position>12,-11</position>
+<gparam>LED_BOX -30,-20,30,20</gparam>
+<gparam>angle 0.0</gparam></gate>
 <gate>
 <ID>3</ID>
 <type>AE_OR3</type>
@@ -107,6 +36,12 @@
 <ID>OUT</ID>2 </output>
 <gparam>angle 0.0</gparam>
 <lparam>INPUT_BITS 3</lparam></gate>
+<gate>
+<ID>4</ID>
+<type>GA_LED</type>
+<position>1.5,-41</position>
+<gparam>LED_BOX -30,-20,30,20</gparam>
+<gparam>angle 0.0</gparam></gate>
 <gate>
 <ID>5</ID>
 <type>AE_SMALL_INVERTER</type>
@@ -1662,24 +1597,24 @@
 <GID>170</GID>
 <name>IN_3</name></connection></vsegment></shape></wire></page 1>
 <page 2>
-<PageViewport>74.9553,-53.2899,137.97,-119.013</PageViewport>
+<PageViewport>64.4529,-42.3596,148.472,-129.991</PageViewport>
 <gate>
 <ID>45</ID>
 <type>GA_LED</type>
 <position>99.5,-82.5</position>
-<gparam>LED_BOX -0.76,-0.76,0.76,0.76</gparam>
+<gparam>LED_BOX -30,-20,30,20</gparam>
 <gparam>angle 0.0</gparam></gate></page 2>
 <page 3>
-<PageViewport>-12.9057,46.3719,341.152,-322.905</PageViewport></page 3>
+<PageViewport>-12.9057,46.3721,341.152,-322.905</PageViewport></page 3>
 <page 4>
-<PageViewport>-12.9057,46.3719,341.152,-322.905</PageViewport></page 4>
+<PageViewport>-12.9057,46.3721,341.152,-322.905</PageViewport></page 4>
 <page 5>
-<PageViewport>-12.9057,46.3719,341.152,-322.905</PageViewport></page 5>
+<PageViewport>-12.9057,46.3721,341.152,-322.905</PageViewport></page 5>
 <page 6>
-<PageViewport>-12.9057,46.3719,341.152,-322.905</PageViewport></page 6>
+<PageViewport>-12.9057,46.3721,341.152,-322.905</PageViewport></page 6>
 <page 7>
-<PageViewport>-12.9057,46.3719,341.152,-322.905</PageViewport></page 7>
+<PageViewport>-12.9057,46.3721,341.152,-322.905</PageViewport></page 7>
 <page 8>
-<PageViewport>-12.9057,46.3719,341.152,-322.905</PageViewport></page 8>
+<PageViewport>-12.9057,46.3721,341.152,-322.905</PageViewport></page 8>
 <page 9>
-<PageViewport>-12.9057,46.3719,341.152,-322.905</PageViewport></page 9></circuit>
+<PageViewport>-12.9057,46.3721,341.152,-322.905</PageViewport></page 9></circuit>
